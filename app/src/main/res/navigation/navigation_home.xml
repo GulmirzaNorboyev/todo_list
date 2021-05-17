@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="uz.alif.tech.todo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <dialog
+        android:id="@+id/nav_add_edit_todo"
+        android:name="uz.alif.tech.todo.ui.add_edit.AddTodoDialogFragment"
+        android:label=""
+        tools:layout="@layout/dialog_add_todo" />
+
+</navigation>

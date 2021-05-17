@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Список задач</string>
+    <string name="title_home">Все</string>
+    <string name="title_finished">Выполнено</string>
+    <string name="title_process">В прогрессе</string>
+    <string name="title_add">Добавить</string>
+    <string name="title_edit">Изменить</string>
+    <string name="title_name_todo_hint">Название задачи</string>
+    <string name="title_add_todo">Добавить задачу</string>
+    <string name="title_edit_todo">Редактировать задачу</string>
+    <string name="changed_to_process">Задача была определена как в процессе!</string>
+    <string name="changed_to_finished">Задача выполнена!</string>
+    <string name="changed_to_feature">Задача должна быть общей</string>
+    <string name="todo_deleted">Задача полностью удалена</string>
+</resources>
